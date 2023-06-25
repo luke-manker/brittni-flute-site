@@ -9,7 +9,7 @@ interface NavBarProps {
 const NavBar: FunctionComponent<NavBarProps> = (activePage) => {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
   return (
-    <div className="flex items-center justify-center border-b border-brittni_yellow py-8 px-10">
+    <div className="flex items-center justify-center border-b border-brittni_yellow py-8 px-10 m-10">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
