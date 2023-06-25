@@ -7,14 +7,6 @@ import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Brittni McDonald Flute Studio",
-  description: "Brittni McDonald Flute Studio",
-  icons: {
-    icon: "/icon.ico",
-  },
-};
-
 export default function RootLayout({
   children,
 }: {

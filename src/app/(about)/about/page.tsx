@@ -4,6 +4,9 @@ import { FC } from "react";
 export const metadata: Metadata = {
   title: "McDonald Flute | About",
   description: "McDonald Flute Studio",
+  icons: {
+    icon: "/icon.ico",
+  },
 };
 
 const page: FC = () => {

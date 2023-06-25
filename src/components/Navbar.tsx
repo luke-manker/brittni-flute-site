@@ -61,7 +61,7 @@ const NavBar: FunctionComponent<NavBarProps> = (activePage) => {
 
         <ul className="DESKTOP-MENU hidden space-x-48 lg:flex">
           <li className="text-brittni_text text-2xl">
-            <a href="/about">home</a>
+            <a href="/">home</a>
           </li>
           <li className="text-brittni_text text-2xl font-light">
             <a href="/about">about</a>
