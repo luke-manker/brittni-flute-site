@@ -9,7 +9,7 @@ interface NavBarProps {
 const NavBar: FunctionComponent<NavBarProps> = (activePage) => {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
   return (
-    <div className="flex items-center justify-center border-b border-gray-400 py-8 px-10">
+    <div className="flex items-center justify-center border-b border-brittni_yellow py-8 px-10">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -60,20 +60,20 @@ const NavBar: FunctionComponent<NavBarProps> = (activePage) => {
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-48 lg:flex">
-          <li>
+          <li className="text-brittni_text text-2xl">
             <a href="/about">home</a>
           </li>
-          <li>
-            <a href="/portfolio">about</a>
+          <li className="text-brittni_text text-2xl font-light">
+            <a href="/about">about</a>
           </li>
-          <li>
-            <a href="/contact">lessons</a>
+          <li className="text-brittni_text text-2xl font-light">
+            <a href="/about">lessons</a>
           </li>
-          <li>
-            <a href="/contact">media</a>
+          <li className="text-brittni_text text-2xl font-light">
+            <a href="/about">media</a>
           </li>
-          <li>
-            <a href="/contact">contact</a>
+          <li className="text-brittni_text text-2xl font-light">
+            <a href="/about">contact</a>
           </li>
         </ul>
       </nav>
